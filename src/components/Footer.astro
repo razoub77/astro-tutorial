@@ -1,0 +1,25 @@
+---
+const platforms = [
+  { name: "Github", url: "https://github.com/razoub77" },
+  { name: "Steam", url: "https://steamcommunity.com/id/ezryu/" },
+];
+---
+
+<style>
+  footer {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 2rem;
+  }
+
+  a {
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #4c1d95;
+    text-decoration: none;
+  }
+</style>
+
+<footer>
+  {platforms.map((platform) => <a href={platform.url}>{platform.name}</a>)}
+</footer>
