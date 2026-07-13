@@ -9,8 +9,8 @@ const pageTitle = "My Astro Learning Blog";
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/astro-tutorial/favicon.svg" />
+    <link rel="icon" href="/astro-tutorial/favicon.ico" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
@@ -27,5 +27,8 @@ const pageTitle = "My Astro Learning Blog";
     </ul>
 
     <Footer />
+    <script>
+      import "../scripts/menu.ts";
+    </script>
   </body>
 </html>
