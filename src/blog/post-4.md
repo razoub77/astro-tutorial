@@ -1,7 +1,6 @@
 ---
-layout: "@layouts/MarkdownPostLayout.astro"
 title: "My Fourth Blog Post"
-pubDate: "2022-08-08"
+pubDate: 2022-08-08
 author: "Astro Learner"
 description: "This post will show up on its own!"
 image:
